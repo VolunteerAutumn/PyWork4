@@ -78,3 +78,5 @@ except ZeroDivisionError:
     print("No numbers were entered.")
 finally:
     print("Data has been processed.")
+
+# @Volunteer Autumn all rights reserved.
