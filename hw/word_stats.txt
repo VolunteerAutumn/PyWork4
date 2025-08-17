@@ -1,0 +1,10 @@
+the: 62
+and: 59
+of: 40
+a: 39
+pokã©mon: 28
+to: 25
+in: 17
+that: 17
+with: 13
+has: 12
