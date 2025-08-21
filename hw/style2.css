@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f5f5f5;
+}
+
+/* Navbar */
+nav {
+    background: #4c996b;
+    margin: 40px; /* menu margin */
+    display: inline-block; /* shrink to fit width */
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    position: relative;
+    flex: 1;
+}
+nav ul li a {
+    display: block;
+    padding: 20px 30px; /* make buttons bigger */
+    color: white;
+    text-decoration: none;
+    border: 1px solid #3f8059; /* border for equal size */
+    text-align: center;
+    min-width: 160px; /* same width baseline */
+    font-size: 22px; /* larger font size */
+}
+
+/* Hover + active parent highlighting */
+nav ul li a:hover,
+nav ul li:hover > a {
+    background: #3f8059;
+    border-color: #3f8059; /* border matches hover color */
+}
+
+/* Dropdown */
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #4c996b;
+    padding: 0;
+}
+nav ul ul li {
+    width: 100%;
+}
+nav ul ul li a {
+    padding: 14px 20px;
+    min-width: 180px; /* dropdown width matches buttons */
+    border: 1px solid #3f8059;
+}
+nav ul ul li a:hover {
+    border-color: #3f8059;
+}
+nav ul li:hover > ul {
+    display: block;
+}
+
+/* Sub-dropdown (next level) */
+nav ul ul ul {
+  top: 0;
+  left: 100%;
+}
+
+p {
+    font-size: 22px;
+    margin: 40px;
+    margin-top: 20px;
+    width: 1100px;
+}
